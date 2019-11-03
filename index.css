@@ -1,0 +1,1782 @@
+*{
+	margin: 0%;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: trebuchet MS;
+	color: cornflowerblue, powderblue, deepskyblue;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+br{
+	margin: 1%;
+}
+
+body{
+	background: #FFFFFF;
+}
+
+
+.container{
+	width: 90%;
+	height: 100%;
+	margin: auto;
+}
+
+.menu{
+	width: 100%;
+	height: 100px;
+	padding: 10px;
+	background: tomato;
+	box-shadow: 0px 0px 3px 0px grey;
+	position: fixed;
+	margin-top: 0%;
+}
+
+.menu img{
+	float: left;
+	width: 3%;
+	height: 50%;
+	display: inline-block;
+}
+
+.menu h1{
+	float: left;
+	font-size: 30px;
+	width: 15%;
+	color: white;
+	display: inline-block;
+}
+
+#white-line{
+	border-bottom: solid white 3px; 
+}
+
+.search-bar{
+	float: left;
+	background: white;
+	padding: 5px;
+	width: 30%;
+	height: 50px;
+	margin-left: 10%;
+	border-radius: 20px;
+}
+
+.search-bar input{
+	width: 90%;
+	float: left;
+	margin-left: 2px;
+	height: 35px;
+	padding: 3px;
+	border: none;
+	color: tomato;
+}
+
+.search-bar button{
+	float: left;
+	width: 5%;
+	height: 100%;
+	border: none;
+	background: white;
+}
+
+.search-bar img{
+	width: 70%;
+	height: 70%;
+	border: none;
+	background: white;
+}
+
+#menu-icon-content{
+	position: absolute;
+	left: 80%;
+}
+
+#menu-icon-content img{
+	width: 30%;
+	height: 30%;
+	display: block;
+}
+
+#menu-icon-content a{
+	display: inline-block;
+	padding: 5px;
+	width: 30%;
+	margin-right: 3%;
+	color: white;
+}
+
+
+#menu-icon-content a:hover{
+	background: white;
+	color: tomato;
+}
+
+.picture-with-text{
+	margin: 1% 0% 1% 0%;
+	height: 500px;
+	width: 100%;
+}
+
+.picture-with-text img{
+	width: 98%;
+	margin-left: 1%;
+	height: 490px;
+}
+
+
+.our-works{
+	color: tomato;
+	background: snow;
+	text-align: center;
+	font-size: 30px;
+	margin: 1% 0% 1% 0%;
+}
+
+#web-photos{
+	width: 30%;
+	height: 300px;
+	padding: 20px;
+	margin: 2% 0% 0% 2%;
+	display: inline-block;
+}
+
+#web-photos img{
+	width: 50%;
+	height: 150px;
+}
+
+#web-photos p{
+	padding: 10px;
+	font-size: 15px;
+	color: tomato;
+	font-style: italic;
+	text-align: center;
+}
+
+.products{
+	width: 100%;
+	padding: 10px;
+	margin: 2% 0% 2% 0%;
+	background: snow;
+}
+
+.products h1{
+	text-align: center;
+	color: tomato;
+	font-size: 50px;
+	padding: 10px;
+}
+
+.products h2{
+	text-align: center;
+	color: snow;
+	background: tomato;
+	font-size: 30px;
+	padding: 10px;
+	margin-top: 2%; 
+	margin-bottom: 2%; 
+}
+
+#products{
+	width: 20%;
+	height: 30%;
+	margin: 1% 2% 2% 2%;
+	display: inline-block;
+}
+
+#products img{
+	width: 100%;
+	height: 80%;
+	box-shadow: 0px 0px 2px 3px white;
+}
+
+#products p{
+	padding: 5px;
+	color: tomato;
+	font-size: 12px;
+}
+
+#cost{
+	float: right;
+}
+
+.footer{
+	width: 100%;
+	background: tomato;
+	margin: 2% 0% 0% 0%;
+	box-sizing: border-box;
+}
+
+#footer-left{
+	width: 65%;
+	height: 200px;
+	background: lightsalmon;
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 20px 10px 10px 40px;
+}
+
+#footer-left #categories{
+	width: 25%;
+	display: inline-block;
+	margin: 1% 0% 1% 5%;
+	list-style: none;
+	color: snow;
+}
+
+#categories li{
+	list-style: none;
+	margin-left: 5%;
+}
+
+#categories a{
+	color: snow;
+}
+
+#footer-right{
+	float: right;
+	width: 35%;
+	box-sizing: border-box;
+	padding: 20px 10px 10px 40px;
+}
+
+#footer-right img{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+}
+
+#footer-right h1{
+	display: inline-block;
+	color: snow;
+	font-size: 20px;
+}
+
+ #footer-right p{
+	display: block;
+	color: snow;
+	font-size: 12px;
+}
+
+ #footer-right a{
+	display: block;
+	color: snow;
+	font-size: 12px;
+}
+
+#footer-right a:hover{
+	color: white;
+	font-size: 20px;
+}
+
+#back{
+	background: tomato;
+	padding: 10px;
+}
+
+#back img{
+	width: 30px;
+	height: 30px;
+}
+
+#back a{
+	font-size: 30px;
+	color: snow;
+}
+
+#back a:hover, #back:hover {
+	background: snow;
+	color: tomato
+;
+}
+
+#about-content{
+	display: none;
+	width: 70%;
+	height: 90%;
+	background: tomato;
+	position: fixed;
+	top: 10%;
+	right: 15%;
+	text-align: center;
+}
+
+#about-content h1, #about-content p{
+	color: snow;
+	margin: 5% 5%;
+}
+
+#about-content img{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 5%;
+	right: 2%;
+}
+
+#contact-content{
+	display: none;
+}
+
+#contact-content button{
+	width: 40%;
+}
+
+#categories form{
+	width: 70%;
+	height: 90%;
+	background: tomato;
+	position: fixed;
+	top: 10%;
+	right: 15%;
+}
+
+#categories form input{
+	padding: 20px;
+	margin: 5% 5%;
+	border-radius: 20px;
+	width: 70%;
+	display: block;
+}
+
+#categories form textarea{
+	padding: 20px;
+	margin: 0% 5%;
+	border-radius: 20px;
+	width: 70%;
+	height: 200px;
+	display: block;
+}
+
+#categories form button{
+	background: snow;
+	color: tomato;
+	padding: 20px;
+	margin: 2% 5%;
+	width: 300px;
+	border-radius: 20px;
+}
+
+#categories form img{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 5%;
+	right: 2%;
+}
+
+
+
+/* styles for the login page */
+
+.sign-up-or-log-in{
+	width: 100%;
+}
+
+#login{
+	display: block;
+	width: 60%;
+	margin: 5% 0% 5% 20%;
+	background: snow;
+	border: solid 2px tomato;
+	border-radius: 20px;
+	text-align: center;
+}
+
+#login a, #login h1{
+	color: tomato;
+	cursor: pointer;
+}
+
+#login form{
+	margin: auto;
+	width: 70%;
+}
+
+#login form input{
+	padding: 20px;
+	margin: 5% 5%;
+	border-radius: 20px;
+	width: 70%;
+	display: block;
+}
+
+#sign-up{
+	display: none;
+	width: 60%;
+	margin: 5% 0% 5% 20%;
+	background: snow;
+	border: solid 2px tomato;
+	border-radius: 20px;
+	text-align: center;
+}
+
+#sign-up a, #sign-up h1{
+	color: tomato;
+	cursor: pointer;
+}
+
+#sign-up form{
+	margin: auto;
+	width: 70%;
+}
+
+#sign-up form input{
+	padding: 20px;
+	margin: 5% 5%;
+	border-radius: 20px;
+	width: 70%;
+	display: block;
+}
+
+/* styles for the cart page */
+
+.cart{
+	background-image: url('images/shopping.png');
+	width: 100%;
+	background-size: 20%;
+	height: 500px;	
+}
+
+.cart h1{
+	padding: 20px;
+	text-align: center;
+	color: tomato;
+}
+
+.cart p{
+	padding: 10px;
+	margin-top: 100px;
+	color: tomato;
+	text-align: center;
+}
+
+.cart a{
+	background: tomato;
+	color: white;
+	padding: 10px;
+	margin-left: 40%;
+}
+
+.cart a:hover{
+	background: white;
+	color: tomato;
+}
+
+/* styles for the product pages*/
+
+.ict{
+	width: 100%;
+	padding: 50px;
+	margin: 2% 0%;
+	border-radius: 30px;
+	box-shadow: 0px 0px 3px 3px grey;
+	background: snow;
+}
+
+.ict img{
+	width: 40%;
+	height: 40%;
+	margin: 0% 0% 2% 0%;
+}
+
+#ict{
+	float: right;
+	width: 400px;
+	height: 500px;
+	margin: 0% 0% 2% 0%;
+	display: inline-block;
+}
+
+#ict h1{
+	color: tomato;
+	width: 100%;
+}
+
+
+#ict li{
+	padding: 10px;
+	font-size: 20px;
+	width: 100%;
+	color: darksalmon;
+	display: inline-block;
+	list-style: none;
+}
+
+#cost{
+	color: darksalmon;
+	font-size: 40px;
+	width: 50%;
+	border-bottom: double;
+}
+
+.ict button{
+	background: tomato;
+	width: 100%;
+	display: block;
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+
+.ict a:hover{
+	background: tomato;
+	color: white;
+}
+
+#payment{
+	display: none;
+    background: tomato;
+    position: fixed;
+    top: 100px;
+    width: 30%;
+    height: 90%;
+    margin-left: 30%;
+    padding: 100px 10px 10px 10px; 
+    color: white;
+}
+
+#payment select, #payment input{
+    padding: 10px;
+    width: 95%;
+    display: block;
+    margin: 2% 0%;
+}
+
+#payment button{
+    width: 50%;
+    display: inline-block;
+    padding: 10px;
+    background: red;
+    color: white;
+    border: none;
+    margin: 2% 20%;
+}
+
+#request-processed{
+	display: none;
+	background: tomato;
+	color: white;
+	width: 100%;
+	height: 1500px;
+	left: 0%;
+	top: 0px;
+	bottom: 0px;
+	position: absolute;
+}
+
+#request-processed a{
+	background: orange;
+	width: 500px;
+	padding: 10px;
+	position: absolute;
+	top: 60%;
+	left: 30%;
+	text-align: center;
+}
+
+#request-processed p{
+	position: absolute;
+	top: 50%;
+	left: 40%;
+	font-size: 15px;
+	font-style: italic;
+}
+
+/* for android  portrait*/
+
+@media screen and (max-width: 340px) {
+
+.menu{
+	position: fixed;
+	margin-top: 0%;
+	width: 100%;
+	height: 70px;
+	padding: 10px;
+	background: tomato;
+	box-shadow: 0px 0px 3px 0px grey;
+}
+
+.menu img{
+	float: left;
+	width: 3%;
+	height: 20%;
+	display: inline-block;
+}
+
+.menu h1{
+	float: left;
+	font-size: 15px;
+	width: 15%;
+	color: white;
+	display: inline-block;
+}
+
+#white-line{
+	border-bottom: solid white 3px; 
+}
+
+.search-bar{
+	position: absolute;
+	background: white;
+	padding: 5px;
+	width: 70%;
+	height: 20px;
+	top: 40px;
+	left: 5%;
+	border-radius: 5px;
+}
+
+.search-bar input{
+	width: 75%;
+	float: left;
+	margin-left: 2px;
+	height: 10px;
+	padding: 3px;
+	border: none;
+	color: tomato;
+}
+
+.search-bar button{
+	float: left;
+	width: 20%;
+	height: 100%;
+	border: none;
+	background: white;
+}
+
+.search-bar img{
+	width: 50%;
+	height: 50%;
+	border: none;
+	background: white;
+}
+
+#menu-icon-content{
+	position: absolute;
+	left: 70%;
+}
+
+#menu-icon-content img{
+	width: 40%;
+	height: 40%;
+	display: block;
+}
+
+#menu-icon-content a{
+	float: left;
+	display: inline-block;
+	padding: 3px;
+	margin-left: 2%;
+	width: 60%;
+	font-size: 10px;
+	color: white;
+}
+
+
+#menu-icon-content a:hover{
+	background: white;
+	color: tomato;
+}
+
+.picture-with-text{
+	margin: 1% 0% 1% 0%;
+	height: 300px;
+	width: 100%;
+}
+
+.picture-with-text img{
+	width: 98%;
+	margin-left: 1%;
+	height: 290px;
+}
+
+
+.our-works{
+	color: tomato;
+	background: snow;
+	text-align: center;
+	font-size: 15px;
+	margin: 1% 0% 0% 0%;
+}
+
+#web-photos{
+	width: 25%;
+	height: 100px;
+	padding: 10px;
+	margin: 1% 0% 0% 5%;
+	display: inline-block;
+}
+
+#web-photos img{
+	float: left;
+	width: 50%;
+	height: 50px;
+}
+
+#web-photos p{
+	float: right;
+	font-size: 5px;
+	color: tomato;
+	font-style: italic;
+	text-align: center;
+}
+
+.products{
+	width: 100%;
+	padding: 10px;
+	margin: 1% 0% 2% 0%;
+	background: snow;
+}
+
+.products h1{
+	text-align: center;
+	color: tomato;
+	font-size: 15px;
+	padding: 5px;
+}
+
+.products h2{
+	text-align: center;
+	color: snow;
+	background: tomato;
+	font-size: 10px;
+	padding: 3px;
+	margin-top: 2%; 
+	margin-bottom: 1%; 
+}
+
+#products{
+	width: 40%;
+	height: 30%;
+	margin: 4% 0% 4% 5%;
+	display: inline-block;
+}
+
+#products img{
+	width: 100%;
+	height: 70%;
+	box-shadow: 0px 0px 2px 3px white;
+}
+
+#products p{
+	padding: 2px;
+	color: tomato;
+	font-size: 10px;
+}
+
+#cost{
+	float: right;
+}
+
+
+.footer{
+	width: 100%;
+	background: tomato;
+	margin: 2% 0% 0% 0%;
+	box-sizing: border-box;
+}
+
+#footer-left{
+	width: 65%;
+	height: 100px;
+	background: lightsalmon;
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 30px 10px 10px 10px;
+}
+
+#footer-left #categories{
+	float: left;
+	width: 30%;
+	display: inline-block;
+	margin: 1% 0% 1% 10%;
+	list-style: none;
+	color: snow;
+	font-size: 12px;
+}
+
+#categories li{
+	list-style: none;
+	margin-left: 10%;
+	font-size: 10px;
+}
+
+#categories a{
+	color: snow;
+}
+
+#footer-right{
+	float: right;
+	width: 35%;
+	box-sizing: border-box;
+	padding: 30px 10px 10px 10px;
+}
+
+#footer-right img{
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+}
+
+#footer-right h1{
+	display: inline-block;
+	color: snow;
+	font-size: 10px;
+}
+
+ #footer-right p{
+	display: block;
+	color: snow;
+	font-size: 6px;
+}
+
+ #footer-right a{
+	display: block;
+	color: snow;
+	font-size: 7px;
+}
+
+#footer-right a:hover{
+	color: white;
+}
+
+#back{
+	background: tomato;
+	padding: 10px;
+}
+
+#back img{
+	width: 10px;
+	height: 10px;
+}
+
+#back a{
+	font-size: 10px;
+	color: snow;
+}
+
+#back a:hover, #back:hover {
+	background: snow;
+	color: tomato;
+}
+
+#about-content{
+	display: none;
+	width: 70%;
+	height: 90%;
+	background: tomato;
+	position: fixed;
+	top: 70px;
+	right: 15%;
+	text-align: center;
+}
+
+#about-content h1, #about-content p{
+	color: snow;
+	margin: 5% 5%;
+}
+
+#about-content img{
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	top: 5%;
+	right: 2%;
+}
+
+#contact-content{
+	display: none;
+}
+
+#contact-content button{
+	width: 20%;
+}
+
+#categories form{
+	width: 70%;
+	height: 90%;
+	background: tomato;
+	position: fixed;
+	top: 70px;
+	right: 15%;
+	font-size: 6px;
+}
+
+#categories form input{
+	padding: 5px;
+	margin: 2% 10%;
+	border-radius: 5px;
+	width: 70%;
+	display: block;
+}
+
+#categories form textarea{
+	padding: 5px;
+	margin: 0% 10%;
+	border-radius: 5px;
+	width: 70%;
+	height: 100px;
+	display: block;
+}
+
+#categories form button{
+	background: snow;
+	color: tomato;
+	padding: 5px;
+	margin: 2% 40%;
+	width: 20%;
+	border-radius: 20px;
+}
+
+#categories form img{
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	top: 5%;
+	right: 2%;
+}
+
+
+
+/* styles for the login page */
+
+.sign-up-or-log-in{
+	width: 100%;
+}
+
+#login{
+	display: block;
+	width: 80%;
+	margin: 2% 0% 2% 10%;
+	background: snow;
+	border: solid 2px tomato;
+	border-radius: 10px;
+	text-align: center;
+}
+
+#login h1{
+	color: tomato;
+	cursor: pointer;
+	font-size: 15px;
+}
+
+#login a{
+	color: tomato;
+	cursor: pointer;
+	font-size: 10px;
+}
+
+#login form{
+	margin: auto;
+	width: 80%;
+	font-size: 10px;
+}
+
+#login form input{
+	padding: 5px;
+	margin: 2% 5%;
+	border-radius: 5px;
+	width: 80%;
+	display: block;
+	font-size: 10px;
+}
+
+#sign-up{
+	display: none;
+	width: 80%;
+	margin: 2% 0% 2% 10%;
+	background: snow;
+	border: solid 2px tomato;
+	border-radius: 10px;
+	text-align: center;
+}
+
+#sign-up h1{
+	color: tomato;
+	cursor: pointer;
+	font-size: 15px;
+}
+
+#sign-up a{
+	color: tomato;
+	cursor: pointer;
+	font-size: 10px;
+}
+
+#sign-up form{
+	margin: auto;
+	width: 80%;
+}
+
+#sign-up form input{
+	padding: 5px;
+	margin: 2% 5%;
+	border-radius: 5px;
+	width: 80%;
+	display: block;
+	font-size: 10px;
+}
+
+/* styles for the cart page */
+
+.cart{
+	background-image: url('images/shopping.png');
+	width: 100%;
+	background-size: 20%;
+	height: 300px;	
+}
+
+.cart h1{
+	padding: 5px;
+	text-align: center;
+	color: tomato;
+	font-size: 15px;
+}
+
+.cart p{
+	padding: 5px;
+	margin-top: 50px;
+	font-size: 10px;
+	color: tomato;
+	text-align: center;
+}
+
+.cart a{
+	background: tomato;
+	color: white;
+	padding: 2px;
+	font-size: 10px;
+}
+
+.cart a:hover{
+	background: white;
+	color: tomato;
+}
+
+/* styles for the product pages*/
+
+.ict{
+	width: 100%;
+	padding: 10px;
+	margin: 2% 0%;
+	border-radius: 10px;
+	background: snow;
+}
+
+.ict img{
+	float: left;
+	width: 80%;
+	height: 50%;
+	margin: 0% 0% 2% 0%;
+}
+
+#ict{
+	float: right;
+	width: 100%;
+	height: 300px;
+	margin: 0% 0% 1% 0%;
+	display: inline-block;
+}
+
+#ict h1{
+	color: tomato;
+	font-size: 15px;
+}
+
+
+#ict li{
+	padding: 3px;
+	font-size: 10px;
+	color: darksalmon;
+	display: inline-block;
+	list-style: none;
+}
+
+#cost{
+	color: darksalmon;
+	font-size: 20px;
+	width: 40%;
+	border-bottom: double;
+}
+
+.ict button{
+	background: tomato;
+	width: 80%;
+	margin: auto;
+	display: block;
+	color: white;
+	padding: 5px;
+	text-align: center;
+}
+
+.ict a:hover{
+	background: tomato;
+	color: white;
+}
+
+#payment{
+	display: none;
+    background: tomato;
+    position: fixed;
+    top: 120px;
+    width: 50%;
+    height: 40%;
+    margin-left: 25%;
+    padding: 5px 5px 5px 5px; 
+    color: white;
+}
+
+#payment select, #payment input{
+    padding: 5px;
+    width: 95%;
+    display: block;
+    font-size: 10px;
+    margin: 2% 0%;
+}
+
+#payment button{
+    width: 40%;
+    display: inline-block;
+    padding: 5px;
+    background: red;
+    color: white;
+    border: none;
+    margin: 2% 3%;
+}
+
+#request-processed{
+	display: none;
+	background: tomato;
+	color: white;
+	width: 100%;
+	height: 480px;
+	left: 0%;
+	top: 0px;
+	bottom: 0px;
+	position: fixed;
+}
+
+#request-processed a{
+	background: orange;
+	width: 50%;
+	position: absolute;
+	top: 40%;
+	font-size: 10px;
+	text-align: center;
+}
+
+#request-processed p{
+	position: absolute;
+	width: 50%;
+	top: 30%;
+	text-align: center;
+	font-size: 10px;
+	font-style: italic;
+}
+
+
+}
+
+/* End of Styles for Android for portrait*/
+
+
+/* for android landscape */
+
+@media screen and (max-width: 480px) {
+
+.menu{
+	position: fixed;
+	margin-top: 0%;
+	width: 100%;
+	height: 70px;
+	padding: 10px;
+	background: tomato;
+	box-shadow: 0px 0px 3px 0px grey;
+}
+
+.menu img{
+	float: left;
+	width: 3%;
+	height: 20%;
+	display: inline-block;
+}
+
+.menu h1{
+	float: left;
+	font-size: 15px;
+	width: 15%;
+	color: white;
+	display: inline-block;
+}
+
+#white-line{
+	border-bottom: solid white 3px; 
+}
+
+.search-bar{
+	position: absolute;
+	background: white;
+	padding: 5px;
+	width: 70%;
+	height: 20px;
+	top: 40px;
+	left: 5%;
+	border-radius: 5px;
+}
+
+.search-bar input{
+	width: 75%;
+	float: left;
+	margin-left: 2px;
+	height: 10px;
+	padding: 3px;
+	border: none;
+	color: tomato;
+}
+
+.search-bar button{
+	float: left;
+	width: 20%;
+	height: 100%;
+	border: none;
+	background: white;
+}
+
+.search-bar img{
+	width: 50%;
+	height: 50%;
+	border: none;
+	background: white;
+}
+
+#menu-icon-content{
+	position: absolute;
+	right: 0px;
+}
+
+#menu-icon-content img{
+	width: 20%;
+	height: 20%;
+	display: block;
+}
+
+#menu-icon-content a{
+	float: left;
+	display: inline-block;
+	padding: 3px;
+	margin-left: 2%;
+	width: 40%;
+	font-size: 10px;
+	color: white;
+}
+
+
+#menu-icon-content a:hover{
+	background: white;
+	color: tomato;
+}
+
+.picture-with-text{
+	margin: 1% 0% 1% 0%;
+	height: 300px;
+	width: 100%;
+}
+
+.picture-with-text img{
+	width: 98%;
+	margin-left: 1%;
+	height: 290px;
+}
+
+
+.our-works{
+	color: tomato;
+	background: snow;
+	text-align: center;
+	font-size: 15px;
+	margin: 1% 0% 0% 0%;
+}
+
+#web-photos{
+	width: 25%;
+	height: 100px;
+	padding: 10px;
+	margin: 1% 0% 0% 5%;
+	display: inline-block;
+}
+
+#web-photos img{
+	float: left;
+	width: 50%;
+	height: 50px;
+}
+
+#web-photos p{
+	float: right;
+	font-size: 5px;
+	color: tomato;
+	font-style: italic;
+	text-align: center;
+}
+
+.products{
+	width: 100%;
+	padding: 10px;
+	margin: 1% 0% 2% 0%;
+	background: snow;
+}
+
+.products h1{
+	text-align: center;
+	color: tomato;
+	font-size: 15px;
+	padding: 5px;
+}
+
+.products h2{
+	text-align: center;
+	color: snow;
+	background: tomato;
+	font-size: 10px;
+	padding: 3px;
+	margin-top: 2%; 
+	margin-bottom: 1%; 
+}
+
+#products{
+	width: 40%;
+	height: 30%;
+	margin: 4% 0% 4% 5%;
+	display: inline-block;
+}
+
+#products img{
+	width: 100%;
+	height: 70%;
+	box-shadow: 0px 0px 2px 3px white;
+}
+
+#products p{
+	padding: 2px;
+	color: tomato;
+	font-size: 10px;
+}
+
+#cost{
+	float: right;
+}
+
+
+.footer{
+	width: 100%;
+	background: tomato;
+	margin: 2% 0% 0% 0%;
+	box-sizing: border-box;
+}
+
+#footer-left{
+	width: 65%;
+	height: 100px;
+	background: lightsalmon;
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 30px 10px 10px 10px;
+}
+
+#footer-left #categories{
+	float: left;
+	width: 30%;
+	display: inline-block;
+	margin: 1% 0% 1% 10%;
+	list-style: none;
+	color: snow;
+	font-size: 12px;
+}
+
+#categories li{
+	list-style: none;
+	margin-left: 10%;
+	font-size: 10px;
+}
+
+#categories a{
+	color: snow;
+}
+
+#footer-right{
+	float: right;
+	width: 35%;
+	box-sizing: border-box;
+	padding: 30px 10px 10px 10px;
+}
+
+#footer-right img{
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+}
+
+#footer-right h1{
+	display: inline-block;
+	color: snow;
+	font-size: 10px;
+}
+
+ #footer-right p{
+	display: block;
+	color: snow;
+	font-size: 6px;
+}
+
+ #footer-right a{
+	display: block;
+	color: snow;
+	font-size: 7px;
+}
+
+#footer-right a:hover{
+	color: white;
+}
+
+#back{
+	background: tomato;
+	padding: 10px;
+}
+
+#back img{
+	width: 10px;
+	height: 10px;
+}
+
+#back a{
+	font-size: 10px;
+	color: snow;
+}
+
+#back a:hover, #back:hover {
+	background: snow;
+	color: tomato;
+}
+
+#about-content{
+	display: none;
+	width: 70%;
+	height: 90%;
+	background: tomato;
+	position: fixed;
+	top: 70px;
+	right: 15%;
+	text-align: center;
+}
+
+#about-content h1, #about-content p{
+	color: snow;
+	margin: 5% 5%;
+}
+
+#about-content img{
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	top: 5%;
+	right: 2%;
+}
+
+#contact-content{
+	display: none;
+}
+
+#contact-content button{
+	width: 20%;
+}
+
+#categories form{
+	width: 70%;
+	height: 90%;
+	background: tomato;
+	position: fixed;
+	top: 70px;
+	right: 15%;
+	font-size: 6px;
+}
+
+#categories form input{
+	padding: 5px;
+	margin: 2% 10%;
+	border-radius: 5px;
+	width: 70%;
+	display: block;
+}
+
+#categories form textarea{
+	padding: 5px;
+	margin: 0% 10%;
+	border-radius: 5px;
+	width: 70%;
+	height: 100px;
+	display: block;
+}
+
+#categories form button{
+	background: snow;
+	color: tomato;
+	padding: 5px;
+	margin: 2% 40%;
+	width: 20%;
+	border-radius: 20px;
+}
+
+#categories form img{
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	top: 5%;
+	right: 2%;
+}
+
+
+
+/* styles for the login page */
+
+.sign-up-or-log-in{
+	width: 100%;
+}
+
+#login{
+	display: block;
+	width: 80%;
+	margin: 2% 0% 2% 10%;
+	background: snow;
+	border: solid 2px tomato;
+	border-radius: 10px;
+	text-align: center;
+}
+
+#login h1{
+	color: tomato;
+	cursor: pointer;
+	font-size: 15px;
+}
+
+#login a{
+	color: tomato;
+	cursor: pointer;
+	font-size: 10px;
+}
+
+#login form{
+	margin: auto;
+	width: 80%;
+	font-size: 10px;
+}
+
+#login form input{
+	padding: 5px;
+	margin: 2% 5%;
+	border-radius: 5px;
+	width: 80%;
+	display: block;
+	font-size: 10px;
+}
+
+#sign-up{
+	display: none;
+	width: 80%;
+	margin: 2% 0% 2% 10%;
+	background: snow;
+	border: solid 2px tomato;
+	border-radius: 10px;
+	text-align: center;
+}
+
+#sign-up h1{
+	color: tomato;
+	cursor: pointer;
+	font-size: 15px;
+}
+
+#sign-up a{
+	color: tomato;
+	cursor: pointer;
+	font-size: 10px;
+}
+
+#sign-up form{
+	margin: auto;
+	width: 80%;
+}
+
+#sign-up form input{
+	padding: 5px;
+	margin: 2% 5%;
+	border-radius: 5px;
+	width: 80%;
+	display: block;
+	font-size: 10px;
+}
+
+/* styles for the cart page */
+
+.cart{
+	background-image: url('images/shopping.png');
+	width: 100%;
+	background-size: 20%;
+	height: 300px;	
+}
+
+.cart h1{
+	padding: 5px;
+	text-align: center;
+	color: tomato;
+	font-size: 15px;
+}
+
+.cart p{
+	padding: 5px;
+	margin-top: 50px;
+	font-size: 10px;
+	color: tomato;
+	text-align: center;
+}
+
+.cart a{
+	background: tomato;
+	color: white;
+	padding: 2px;
+	font-size: 10px;
+}
+
+.cart a:hover{
+	background: white;
+	color: tomato;
+}
+
+/* styles for the product pages*/
+
+.ict{
+	width: 100%;
+	padding: 10px;
+	margin: 2% 0%;
+	border-radius: 10px;
+	background: snow;
+}
+
+.ict img{
+	float: left;
+	width: 80%;
+	height: 50%;
+	margin: 0% 0% 2% 0%;
+}
+
+#ict{
+	float: right;
+	width: 100%;
+	height: 300px;
+	margin: 0% 0% 1% 0%;
+	display: inline-block;
+}
+
+#ict h1{
+	color: tomato;
+	font-size: 15px;
+}
+
+
+#ict li{
+	padding: 3px;
+	font-size: 10px;
+	color: darksalmon;
+	display: inline-block;
+	list-style: none;
+}
+
+#cost{
+	color: darksalmon;
+	font-size: 20px;
+	width: 40%;
+	border-bottom: double;
+}
+
+.ict button{
+	background: tomato;
+	width: 80%;
+	margin: auto;
+	display: block;
+	color: white;
+	padding: 5px;
+	text-align: center;
+}
+
+.ict a:hover{
+	background: tomato;
+	color: white;
+}
+
+#payment{
+	display: none;
+    background: tomato;
+    position: fixed;
+    top: 5%;
+    width: 50%;
+    height: 80%;
+    margin-left: 25%;
+    padding: 5px 5px 5px 5px; 
+    color: white;
+}
+
+#payment select, #payment input{
+    padding: 5px;
+    width: 95%;
+    display: block;
+    font-size: 10px;
+    margin: 2% 0%;
+}
+
+#payment button{
+    width: 40%;
+    display: inline-block;
+    padding: 5px;
+    background: red;
+    color: white;
+    border: none;
+    margin: 2% 3%;
+}
+
+#request-processed{
+	display: none;
+	background: tomato;
+	color: white;
+	width: 100%;
+	height: 480px;
+	left: 0%;
+	top: 0px;
+	bottom: 0px;
+	position: fixed;
+}
+
+#request-processed a{
+	background: orange;
+	width: 50%;
+	position: absolute;
+	top: 40%;
+	font-size: 10px;
+	text-align: center;
+}
+
+#request-processed p{
+	position: absolute;
+	width: 50%;
+	top: 30%;
+	text-align: center;
+	font-size: 10px;
+	font-style: italic;
+}
+
+
+}
+/*End of style for android for landscape*/
